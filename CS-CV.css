@@ -1,0 +1,530 @@
+.contenido {
+    display: flex;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    flex-wrap: wrap;
+}
+
+
+.lateral_izq,
+.latera_der {
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+/*Elementos del lateral izquierdo*/
+.lateral_izq {
+    width: 340px;
+    background-image: linear-gradient(to bottom, rgb(255, 51, 0), rgb(255, 98, 0));
+    background-clip: border-box;
+    margin-left: 20%;
+    border-radius: 16px;
+}
+
+/*Perfil: Imagen-Perfil-Puesto de trabajo*/
+#perfil {
+    text-align: center;
+    width: 300px;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#img_perfil {
+    margin-top: 25px;
+    border-radius: 32px;
+    border: 5px solid rgb(244, 193, 26);
+    box-shadow: 0px 0px 25px orange;
+    width: 150px;
+    height: 150px;
+}
+
+#nombre {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    margin-top: 30px;
+    width: 300px;
+}
+
+#puesto_trabajo {
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+/*--------------------------------------------*/
+
+/*Resumen Personal*/
+#res_personal {
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-image: linear-gradient(to right, rgb(255, 111, 0), rgb(240, 174, 52), rgb(239, 207, 117));
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width: 300px;
+    padding: 5px;
+}
+
+#cuadro_personal {
+    margin-top: 0px;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-image: linear-gradient(to right, rgb(62, 62, 62), rgb(152, 152, 152));
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    width: 300px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+#resumen {
+    margin-top: 315px;
+    margin-bottom: 70px;
+}
+
+/*--------------------------------------------*/
+
+/*Lista de Aptitudes*/
+#aptitudes_tit {
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    background-image: linear-gradient(to right, rgb(255, 111, 0), rgb(240, 174, 52), rgb(239, 207, 117));
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width: 300px;
+}
+
+#lista_ap {
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 5px;
+    background-image: linear-gradient(to right, rgb(62, 62, 62), rgb(152, 152, 152));
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    width: 300px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
+
+#aptitudes {
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+/*--------------------------------------------*/
+
+/*Contacto*/
+#contacto_tit {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    padding: 5px;
+    background-image: linear-gradient(to right, rgb(255, 111, 0), rgb(240, 174, 52), rgb(239, 207, 117));
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width: 300px;
+}
+
+#cuadro_contacto {
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    background-image: linear-gradient(to right, rgb(62, 62, 62), rgb(152, 152, 152));
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    width: 300px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+#contacto {
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+/*--------------------------------------------*/
+
+
+
+/*Elementos del lateral derecho*/
+.lateral_der {
+    margin-top: 40px;
+    margin-left: 5%;
+}
+
+/*Formato para los títulos de los 3 cuadrantes de la derecha*/
+.hist_acad_lab_ref_tit {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    background-image: linear-gradient(to right, rgb(255, 111, 0), rgb(240, 174, 52), rgb(239, 207, 117));
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width: 300px;
+}
+
+/*Cuadro de texto para los historiales*/
+.cuadro_lab_acad {
+    margin-top: 0px;
+    background-image: linear-gradient(to right, rgb(62, 62, 62), rgb(152, 152, 152));
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    width: 300px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*Cuadro de texto para las referencias*/
+#cuadro_ref {
+    margin-top: 0px;
+    background-image: linear-gradient(to right, rgb(62, 62, 62), rgb(152, 152, 152));
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    width: 300px;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+}
+
+/*Boton de Descarga en PDF*/
+#boton_descarga {
+    background-image: linear-gradient(to right, rgb(255, 111, 0), rgb(240, 174, 52), rgb(239, 207, 117));
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 16px;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    padding: 5px;
+
+    text-decoration: none;
+}
+
+#descarga {
+    margin-top: 15px;
+}
+
+/*Será el diseño del 1er subtitulo en aparecer en los cuadrantes, luego lo mismo para el 2do subtitulo*/
+#subtitulo_1 {
+    padding-top: 10px;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#subtitulo_2 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+/*Separación entre cuadrantes*/
+#historial_lab {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+#historial_acad {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+#referencias {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+/*Diseños de los iconos 1-2-3*/
+#icono1 {
+    background-color: rgb(41, 39, 39);
+    border-top-left-radius: 8px;
+    display: inline-block;
+    margin-left: -38px;
+    padding: 5px;
+    width: 32px;
+}
+
+#icono2 {
+    background-color: rgb(41, 39, 39);
+    border-top-left-radius: 8px;
+    display: inline-block;
+    padding: 5px;
+    width: 35px;
+}
+
+#icono3 {
+    background-color: rgb(41, 39, 39);
+    border-top-left-radius: 8px;
+    display: inline-block;
+    margin-left: -76px;
+    padding: 5px;
+    width: 35px;
+}
+
+#pdf {
+    background-color: rgb(41, 39, 39);
+    display: inline-block;
+    text-align: center;
+    border-bottom-left-radius: 16px;
+    border-top-left-radius: 16px;
+    margin-bottom: 5px;
+    margin-left: -5.2px;
+}
+
+.modo {
+    font-size: 30px;
+    text-align: center;
+    padding: 2px;
+    border-radius: 32px;
+    cursor: pointer;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 2%;
+    left: 63%;
+    background-image: linear-gradient(to right, rgb(255, 111, 0), rgb(240, 174, 52), rgb(239, 207, 117));
+}
+
+.mostrar {
+    display: none;
+}
+
+@media screen and (max-width:280px) {
+
+    body {
+        background: rgb(71, 67, 67);
+    }
+
+    .contenido {
+        background: none;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .lateral_izq,
+    .latera_der {
+        display: inline-block;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0px;
+    }
+
+    #perfil {
+        margin-bottom: -150px;
+    }
+
+    .lateral_izq {
+        background-image: none;
+        width: auto;
+        height: auto;
+    }
+
+    .lateral_der {
+        width: auto;
+        height: auto;
+    }
+
+    .modo {
+        left: 93%;
+    }
+
+    #contacto {
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+
+    .mostrar {
+        display: block;
+        font-size: 22px;
+        color: white;
+        border-bottom-left-radius: 16px;
+        border-top-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+        border-top-right-radius: 16px;
+        background: black;
+        margin: 0;
+        position: relative;
+        z-index: 1;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+
+    .escondido {
+        display: block;
+        opacity: 0;
+        height: 0;
+        transition: all 0.5s;
+        transition-delay: 0.5s;
+    }
+
+    .presentado {
+        display: block;
+        opacity: 1;
+        height: auto;
+    }
+
+    #btn-mostrar-1 {
+        margin-top: 30px;
+    }
+
+    #btn-mostrar-2 {
+        margin-bottom: 25.5px;
+    }
+
+    #descarga {
+        margin: 0px;
+        margin-bottom: 22px;
+    }
+}
+
+@media screen and (max-width:760px) and (min-width: 281px) {
+    body {
+        background: rgb(71, 67, 67);
+    }
+
+    .contenido {
+        background: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .lateral_izq,
+    .latera_der {
+
+        display: inline-block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #perfil {
+        margin-bottom: -150px;
+    }
+
+    .lateral_izq {
+        background-image: none;
+        height: auto;
+        width: auto;
+        margin: 0px;
+    }
+
+    .lateral_der {
+        margin: 0px;
+        width: auto;
+    }
+
+    .modo {
+        left: 83%;
+    }
+
+    #contacto {
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+
+    .mostrar {
+        display: block;
+        font-size: 22px;
+        color: white;
+        border-bottom-left-radius: 16px;
+        border-top-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+        border-top-right-radius: 16px;
+        background: black;
+        margin: 0;
+        position: relative;
+        z-index: 1;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+
+    .escondido {
+        display: block;
+        opacity: 0;
+        height: 0;
+        transition: all 0.5s;
+        transition-delay: 0.5s;
+    }
+
+    .presentado {
+        display: block;
+        opacity: 1;
+        height: auto;
+    }
+
+    #btn-mostrar-1 {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    #btn-mostrar-2 {
+        margin-bottom: 25.5px;
+    }
+
+    #descarga {
+        margin: 0px;
+        margin-bottom: 22px;
+    }
+}
+
+@media screen and (min-width:760px) and (max-width: 900px) {
+    .contenido {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .lateral_izq,
+    .latera_der {
+        display: inline-block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #perfil {
+        margin-bottom: -150px;
+    }
+
+    .lateral_izq {
+        height: auto;
+        width: 340px;
+        margin: 0px;
+        margin-right: 15px;
+        margin-bottom: 70px;
+    }
+
+    .lateral_der {
+        margin: 0px;
+        height: auto;
+    }
+
+    .modo {
+        font-size: 28px;
+        margin: 0;
+        left: 93%;
+    }
+
+
+}
